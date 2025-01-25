@@ -32,6 +32,8 @@ permalink: /
 
 将会学习国科大研一的课程的部分笔记，可用于期末考试。
 
+## [leetcode](./leetcode/README.md)
+将会学习leetcode的题解，以及一些编程相关的问题。
 
 ## [杂货铺](./杂货铺/README.md)
 

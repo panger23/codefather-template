@@ -24,6 +24,10 @@ export default [
         link: '/Git/'
     },
     {
+        text: "leetcode",
+        link: '/leetcode/'
+    },
+    {
         text: "国科大部分课程笔记",
         link: '/国科大部分课程笔记/'
     },

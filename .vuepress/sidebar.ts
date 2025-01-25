@@ -5,6 +5,7 @@ import linuxSideBar from "./sidebars/linuxSideBar";
 import  gitSideBar from "./sidebars/gitSideBar";
 import ucasSideBar from "./sidebars/ucasSideBar";
 import groceriesSideBar from "./sidebars/groceriesSideBar";
+import leetcodeSiteBar  from "./sidebars/leetcodeSiteBar";
 
 // @ts-ignore
 export default {
@@ -13,6 +14,7 @@ export default {
     "/Git/" : gitSideBar,
     "/国科大部分课程笔记/":ucasSideBar,
     "/杂货铺/":groceriesSideBar,
+    "/leetcode/":leetcodeSiteBar,
     // 降级，默认根据文章标题渲染侧边栏
     "/": "auto",
 } as SidebarConfig4Multiple;
