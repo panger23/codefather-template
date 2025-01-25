@@ -8,7 +8,7 @@
 
 在开发过程中用于管理我们对文件、目录或工程等内容的修改历史，方便查看更改历史记录，备份以便恢复以前的版本。
 
-<img src="https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501242128812.png" alt="image-20241015102313028" style="zoom:50%;" />
+<img src="https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501252225546.png" alt="image-20241015102313028" style="zoom:50%;" />
 
 
 
@@ -39,13 +39,13 @@
 
 记录文件每次的更新，可以对每个版本做一个快照，或是记录补丁文件，适合个人，如RCS。
 
-<img src="https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501242128813.png" alt="image-20241015102418891" style="zoom:50%;" />
+<img src="https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501252226559.png" alt="image-20241015102418891" style="zoom:50%;" />
 
 #### 1.3.2 集中版本控制
 
 ​	所有的版本数据都保存在服务器上，协同开发者从服务器上同步更新或上传⾃⼰的修改
 
-<img src="https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501242128814.png" alt="image-20241015102437832" style="zoom:50%;" />
+<img src="https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501252226659.png" alt="image-20241015102437832" style="zoom:50%;" />
 
 ​	所有的版本数据都存在服务器上，⽤户的本地只有⾃⼰以前所同步的版本，如果不连⽹的 话，⽤户就看不到历史版本，也⽆法切换版本验证问题，或在不同分⽀⼯作。⽽且，所有 数据都保存在单⼀的服务器上，有很⼤的⻛险这个服务器会损坏，这样就会丢失所有的数 据，当然可以定期备份。代表产品：SVN、CVS、VSS
 
@@ -53,7 +53,7 @@
 
 #### 1.3.3 分布式版本控制
 
-<img src="https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501242128815.png" alt="image-20241015102532701" style="zoom:50%;" />
+<img src="https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501252226670.png" alt="image-20241015102532701" style="zoom:50%;" />
 
 ​	每个⼈都拥有全部的代码！安全隐患！ 所有版本信息仓库全部同步到本地的每个⽤户，这样就可以在本地查看所有版本历史，可 以离线在本地提交，只需在连⽹时push到相应的服务器或其他⽤户那⾥。由于每个⽤户那⾥保存的都是所有的版本数据，只要有⼀个⽤户的设备没有问题就可以恢复所有的数据， 但这增加了本地存储空间的占⽤。
 
@@ -65,9 +65,9 @@
 
 **Git是分布式版本控制系统**，没有中央服务器，每个⼈的电脑就是⼀个完整的版本库，⼯作 的时候不需要联⽹了，因为版本都在⾃⼰电脑上。协同的⽅法是这样的：⽐如说⾃⼰在电 脑上改了⽂件A，其他⼈也在电脑上改了⽂件A，这时，你们两之间只需把各⾃的修改推送 给对⽅，就可以互相看到对⽅的修改了。Git可以直接看到更新了哪些代码和⽂件！
 
-<img src="https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501242128816.png" alt="image-20241015103113481" style="zoom:50%;" />
+<img src="https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501252226434.png" alt="image-20241015103113481" style="zoom:50%;" />
 
-<img src="https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501242128817.png" alt="image-20241015103619249" style="zoom:50%;" />
+<img src="https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501252226627.png" alt="image-20241015103619249" style="zoom:50%;" />
 
 ### 1.4 Git环境配置
 
@@ -77,13 +77,13 @@
 
 打开 [git官⽹] https://git-scm.com/，下载git对应操作系统的版本。 所有东⻄下载慢的话就可以去找镜像！ 官⽹下载太慢，我们可以使⽤淘宝镜像下载：http://npm.taobao.org/mirrors/git-for-windows/
 
-<img src="https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501242128818.png" alt="image-20241015103926036" style="zoom:50%;" />
+<img src="https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501252226210.png" alt="image-20241015103926036" style="zoom:50%;" />
 
 #### 1.4.2 启动Git
 
 安装成功后在开始菜单中会有Git项，菜单下有3个程序：任意⽂件夹下右键也可以看到对应的程序。
 
-<img src="https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501242128819.png" alt="image-20241015103912191" style="zoom:50%;" />
+<img src="https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501252226259.png" alt="image-20241015103912191" style="zoom:50%;" />
 
 ## 2、常用Linux命令
 
@@ -190,7 +190,7 @@ git config --system --list
 git config --global --list
 ~~~
 
-![image-20241015145220840](https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501242128820.png)
+![image-20241015145220840](https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501252226011.png)
 
 
 
@@ -219,7 +219,7 @@ git config --global user.email 邮箱
 
 Git本地有三个⼯作区域：**⼯作⽬录（Working Directory）、暂存区(Stage/Index)、资源库 (Repository或Git Directory)**。如果在加上远程的**git仓库(Remote Directory)**就可以分为四个⼯作区域。⽂件在这四个区域之间的转换关系如下
 
-<img src="https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501242128821.png" alt="image-20241015145446706" style="zoom:50%;" />
+<img src="https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501252226920.png" alt="image-20241015145446706" style="zoom:50%;" />
 
 
 
@@ -267,7 +267,7 @@ git checkout
 
 **master** 主分支
 
-![image-20241015160116395](https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501242128822.png)
+![image-20241015160116395](https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501252226009.png)
 
 
 
@@ -340,7 +340,7 @@ git clone [url]
 
 + **暂存状态**：**git commit** --> 提交到仓库；**git reset HEAD filename** -->  取消暂存；
 
-![image-20241015151937994](https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501242128823.png)
+![image-20241015151937994](https://panger-1330565050.cos.ap-beijing.myqcloud.com/202501252227846.png)
 
 
 

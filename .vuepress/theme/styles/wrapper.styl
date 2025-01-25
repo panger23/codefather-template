@@ -7,3 +7,115 @@ $wrapper
   @media (max-width: $MQMobileNarrow)
     padding 1.5rem
 
+// 调整右侧目录结构位置
+.toc-container-sidebar {
+  position: fixed;
+  right: 4rem;
+  top: 4rem;
+  width: 20rem;
+  height: calc(100vh - 8rem);
+  padding: 1rem 0.5rem 1rem 1rem;
+  border-left: 1px solid #eaecef;
+  border-right: 1px solid #eaecef;
+  background: #fff;
+  overflow-y: auto;
+  z-index: 5;
+
+  // 目录样式优化
+  .toc-sidebar-links {
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style: none;
+      position: relative;
+      padding-left: 1em;
+
+      &::before {
+        content: "•";
+        position: absolute;
+        left: 0;
+        color: #333;
+      }
+    }
+  }
+
+  a {
+    display: inline;
+    color: #2c3e50;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1.7;
+    text-decoration: none;
+
+    &:hover {
+      color: #3eaf7c;
+    }
+  }
+
+  // 二级目录缩进和样式
+  .toc-sidebar-sub-headers {
+    padding-left: 0.5em;
+    margin: 0;
+
+    li {
+      padding-left: 0.8em;
+
+      &::before {
+        content: "•";
+        font-size: 12px;
+        left: 0;
+      }
+    }
+
+    a {
+      font-size: 12px;
+      font-weight: 600;
+    }
+  }
+}
+
+// 调整页面主体内容区域
+.theme-default-content:not(.custom) {
+  max-width: calc(100% - 25rem) !important;
+  margin: 0;
+  padding: 2rem 2.5rem;
+}
+
+// 调整页面布局
+.page {
+  padding-right: 22rem;
+}
+
+// 调整右侧边栏
+.page-nav {
+  max-width: calc(100% - 24rem) !important;
+}
+
+// 调整社交图标位置，避免与分界线重叠
+.page-side-toolbar {
+  position: fixed;
+  right: 0.5rem;
+  top: 4rem;
+}
+
+// 移动端适配
+@media (max-width: 959px) {
+  .toc-container-sidebar {
+    display: none;
+  }
+
+  .theme-default-content:not(.custom) {
+    max-width: 100% !important;
+  }
+
+  .page {
+    padding-right: 0;
+  }
+
+  .page-nav {
+    max-width: 100% !important;
+  }
+}
+
+
