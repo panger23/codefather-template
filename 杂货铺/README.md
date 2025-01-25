@@ -1,6 +1,6 @@
 # 杂货铺
 
-> 本文作者：panger111
+> 本文作者：panger
 >
 > 本站地址：[https://www.pangercode.top/](https://www.pangercode.top/)
 
