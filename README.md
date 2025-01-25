@@ -2,13 +2,13 @@
 permalink: /
 ---
 
-# Clap的编程宝典
+# panger的编程宝典
 
 > 贴心的编程学习路线，全面的编程知识百科
 >
-> 作者：Clap
+> 作者：panger
 >
-> 本站地址：[https://codefather.cn](https://codefather.cn)
+> 本站地址：[https://www.pangercode.top/](https://www.pangercode.top/)
 
 ## 本站内容
 

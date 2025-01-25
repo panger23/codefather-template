@@ -1,8 +1,8 @@
 # Linux
 
-> 本文作者：Clap
+> 本文作者：panger
 >
-> 本站地址：[https://codefather.cn](https://codefather.cn)
+> 本站地址：[https://www.pangercode.top/](https://www.pangercode.top/)
 
 将会学习Linux的基础命令的使用，以及在Linux下软件的安装与使用。
 

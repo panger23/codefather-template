@@ -1,10 +1,6 @@
 import {NavItem} from "vuepress/config";
 
 export default [
-    {
-        text: "学习路线",
-        link: '/学习路线/'
-    },
     // {
     //     text: "language",
     //     ariaLabel: "Language Menu",
@@ -34,6 +30,10 @@ export default [
     {
         text: "杂货铺",
         link: '/杂货铺/'
+    },
+    {
+        text: "引用鱼皮的学习路线",
+        link: '/学习路线/'
     },
 
 ] as NavItem[];

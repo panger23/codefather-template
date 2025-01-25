@@ -1,8 +1,8 @@
 # 杂货铺
 
-> 本文作者：Clap
+> 本文作者：panger
 >
-> 本站地址：[https://codefather.cn](https://codefather.cn)
+> 本站地址：[https://www.pangercode.top/](https://www.pangercode.top/)
 
 记录一些自己平常写的小笔记
 

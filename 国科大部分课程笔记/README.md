@@ -1,8 +1,8 @@
 # 国科大研一
 
-> 本文作者：Clap
+> 本文作者：panger
 >
-> 本站地址：[https://codefather.cn](https://codefather.cn)
+> 本站地址：[https://www.pangercode.top/](https://www.pangercode.top/)
 
 国科大研一的课程都部分笔记，有的不全。
 

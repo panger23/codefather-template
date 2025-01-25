@@ -23,7 +23,7 @@ export default [
     title: "加微信",
     icon: "/icon/weixin.png",
     popoverTitle:
-      '<span style="font-size:0.8rem;font-weight:bold;">扫码添加 <span style="color:red;">编程导航小助手微信</span>，拉你进专属编程学习交流群</span>',
+      '<span style="font-size:0.8rem;font-weight:bold;">扫码添加 <span style="color:red;">博主微信</span>，一起交流</span>',
     popoverUrl:
       "/qrcode-codenavhelper.png",
   },

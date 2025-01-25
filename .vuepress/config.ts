@@ -4,12 +4,12 @@ import sidebar from "./sidebar";
 import footer from "./footer";
 import extraSideBar from "./extraSideBar";
 
-const author = "程序员Clap";
-const domain = "https://codefather.cn"; // 改为自己的域名
+const author = "程序员panger";
+const domain = "https://pangercode.top"; // 改为自己的域名
 const tags = ["程序员", "编程", "计算机"];
 
 export default defineConfig({
-  title: "Clap的编程宝典",
+  title: "panger的编程宝典",
   description: "记录自己的学习笔记，努力学习争取进大厂",
   head: [
     // 站点图标
@@ -20,7 +20,7 @@ export default defineConfig({
       {
         name: "keywords",
         content:
-          "程序员Clap, 鱼皮的编程学习路线, git使用，Linux学习，国科大课程笔记，杂货铺",
+          "程序员panger, 鱼皮的编程学习路线, git使用，Linux学习，国科大课程笔记，杂货铺",
       },
     ],
     // 百度统计
